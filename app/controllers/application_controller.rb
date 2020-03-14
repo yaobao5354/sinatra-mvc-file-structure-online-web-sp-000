@@ -1,4 +1,5 @@
 require 'pry'
+require_relative '../modes/dog.rb'
 class ApplicationController < Sinatra::Base
 
   configure do
