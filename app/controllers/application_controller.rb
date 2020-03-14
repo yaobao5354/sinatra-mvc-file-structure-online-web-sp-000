@@ -1,6 +1,3 @@
-require 'pry'
-
-#require_relative '../models/dog.rb'
 class ApplicationController < Sinatra::Base
 
   configure do
@@ -13,4 +10,3 @@ class ApplicationController < Sinatra::Base
   end
 
 end
-#binding.pry
